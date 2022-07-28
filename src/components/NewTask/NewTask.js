@@ -17,7 +17,7 @@ const NewTask = (props) => {
       {
         url:
           "https://react-http-7e857-default-rtdb.firebaseio.com\n" +
-          "\n/tasks.json",
+          "/tasks.json",
         method: "POST",
         headers: {
           "Content-Type": "application/json",
